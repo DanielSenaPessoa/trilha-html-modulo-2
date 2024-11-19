@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Home site</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+             <h1>Navegação</h1>
+                <ul class="menu-list">
+                    <li><a href="PaginaHome.html" target="_self">Pagina inicial</a></li>
+                    <li><a href="Sobrenos.html" target="_self">Sobre nós</a></li>
+                    <li><a href="HorarioAtendimento.html">Horarios de atendimentos</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+                <h2 class="footer-title">Entre em contato conosco!</h2>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="Complemento/cabeçalho1000.jpeg" width="1000" height="200" alt="Imagem do Cabeçalho">
+                
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h2>Entre em Contato</h2>
+                <p>
+                    Estamos à disposição para atender você. Abaixo estão nossos canais de contato e um mapa para facilitar sua visita.
+                </p>
+        
+                <!-- Informações de Contato -->
+                <h3>Informações de Contato</h3>
+                <ul>
+                    <li><strong>Telefone:</strong> (11) 1234-5678</li>
+                    <li><strong>WhatsApp:</strong> (11) 98765-4321</li>
+                    <li><strong>Endereço:</strong> Rua da Saúde, 123, São Paulo - SP</li>
+                </ul>
+        
+                <!-- Google Maps -->
+                <h3>Como Chegar</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.193309065815!2d-46.65657208444514!3d-23.597616484662556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2994e2f813%3A0xa456198bf8a90db5!2sAv.%20Paulista%2C%202100%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-300!5e0!3m2!1sen!2sbr!4v1615194463693!5m2!1sen!2sbr" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+        
+                <!-- Formulário de Contato -->
+                <h3>Envie uma Mensagem</h3>
+                <form>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+        
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" name="assunto" required>
+        
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        
+                    <div style="display: flex; gap: 10px;">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                 <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+                 <p>Contate-nos:Danielsenapessoa12@gmail.com</p>
+                 <p>Siga-nos nas redes Sociais:</p>
+                 <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">linkedin</a></li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
